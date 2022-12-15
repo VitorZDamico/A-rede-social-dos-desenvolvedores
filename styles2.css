@@ -1,0 +1,44 @@
+/* geral */
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Helvetica;
+	color: #323232 ;	
+	border: none;
+}
+
+.titulo-branco { color: #fff;
+	text-align: center;
+
+}
+
+.titulo-preto { color: black;
+
+}
+
+.tamanho-imagem{
+	height: 70px;
+	width: 70px;
+	margin: 2px;
+}
+
+
+body {
+	background-image: url('../img/backgroundcinza.jpg');
+	background-size: cover;
+}
+
+/* container login */
+
+#login-container {
+	background-color: #fff;
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px 30px;
+	margin-top: 10vh;
+	border-radius: 10px;
+	text-align: center;
+}
